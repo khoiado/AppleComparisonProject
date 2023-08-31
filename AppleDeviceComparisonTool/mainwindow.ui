@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
+    <width>839</width>
     <height>600</height>
    </rect>
   </property>
@@ -14,234 +14,276 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QWidget" name="layoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>110</x>
-      <y>0</y>
-      <width>615</width>
-      <height>325</height>
-     </rect>
-    </property>
-    <layout class="QGridLayout" name="gridLayout">
-     <item row="0" column="1">
-      <widget class="QLabel" name="label">
-       <property name="text">
-        <string>AppleiPhoneComparisonTool</string>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="0" alignment="Qt::AlignHCenter">
-      <widget class="QLabel" name="label_3">
-       <property name="text">
-        <string>Device 1</string>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="2" alignment="Qt::AlignHCenter">
-      <widget class="QLabel" name="label_4">
-       <property name="text">
-        <string>Device 2</string>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="0" alignment="Qt::AlignHCenter">
-      <widget class="QComboBox" name="comboBox">
-       <item>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="5" column="1" alignment="Qt::AlignHCenter">
+       <widget class="QLabel" name="label_2">
         <property name="text">
-         <string>iPhone X</string>
+         <string>Comparing...</string>
         </property>
-       </item>
-       <item>
+       </widget>
+      </item>
+      <item row="3" column="2" alignment="Qt::AlignHCenter">
+       <widget class="QTextEdit" name="textEdit_2">
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QPushButton" name="pushButton">
+        <property name="font">
+         <font>
+          <family>FreeMono</family>
+          <pointsize>15</pointsize>
+          <italic>true</italic>
+          <bold>true</bold>
+         </font>
+        </property>
         <property name="text">
-         <string>iPhone XS</string>
+         <string>Compare</string>
         </property>
-       </item>
-       <item>
+       </widget>
+      </item>
+      <item row="2" column="0" alignment="Qt::AlignHCenter">
+       <widget class="QComboBox" name="comboBox">
+        <item>
+         <property name="text">
+          <string>iPhone X</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>iPhone XS</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>iPhone XS Max</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>iPhone XR</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>iPhone 11</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>iPhone 11 Pro</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>iPhone 11 Pro Max</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>iPhone SE (2nd generation)</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>iPhone 12 mini</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>iPhone 12</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>iPhone 12 Pro</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>iPhone 12 Pro Max</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>iPhone 13 mini</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>iPhone 13</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>iPhone 13 Pro</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>iPhone 13 Pro Max</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="1" column="2" alignment="Qt::AlignHCenter">
+       <widget class="QLabel" name="label_4">
+        <property name="font">
+         <font>
+          <family>FreeMono</family>
+          <pointsize>15</pointsize>
+          <italic>true</italic>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
         <property name="text">
-         <string>iPhone XS Max</string>
+         <string>Device 2</string>
         </property>
-       </item>
-       <item>
+       </widget>
+      </item>
+      <item row="2" column="2" alignment="Qt::AlignHCenter">
+       <widget class="QComboBox" name="comboBox_2">
+        <item>
+         <property name="text">
+          <string>iPhone X</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>iPhone XS</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>iPhone XS Max</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>iPhone XR</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>iPhone 11</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>iPhone 11 Pro</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>iPhone 11 Pro Max</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>iPhone SE (2nd generation)</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>iPhone 12 mini</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>iPhone 12</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>iPhone 12 Pro</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>iPhone 12 Pro Max</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>iPhone 13 mini</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>iPhone 13</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>iPhone 13 Pro</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>iPhone 13 Pro Max</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="3" column="0" alignment="Qt::AlignHCenter">
+       <widget class="QTextEdit" name="textEdit">
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0" alignment="Qt::AlignHCenter">
+       <widget class="QLabel" name="label_3">
+        <property name="font">
+         <font>
+          <family>FreeMono</family>
+          <pointsize>15</pointsize>
+          <italic>true</italic>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Plain</enum>
+        </property>
         <property name="text">
-         <string>iPhone XR</string>
+         <string>Device 1</string>
         </property>
-       </item>
-       <item>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLabel" name="label">
+        <property name="font">
+         <font>
+          <family>FreeSans</family>
+          <pointsize>25</pointsize>
+          <bold>false</bold>
+         </font>
+        </property>
         <property name="text">
-         <string>iPhone 11</string>
+         <string>AppleiPhoneComparisonTool</string>
         </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>iPhone 11 Pro</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>iPhone 11 Pro Max</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>iPhone SE (2nd generation)</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>iPhone 12 mini</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>iPhone 12</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>iPhone 12 Pro</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>iPhone 12 Pro Max</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>iPhone 13 mini</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>iPhone 13</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>iPhone 13 Pro</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>iPhone 13 Pro Max</string>
-        </property>
-       </item>
-      </widget>
-     </item>
-     <item row="2" column="2" alignment="Qt::AlignHCenter">
-      <widget class="QComboBox" name="comboBox_2">
-       <item>
-        <property name="text">
-         <string>iPhone X</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>iPhone XS</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>iPhone XS Max</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>iPhone XR</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>iPhone 11</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>iPhone 11 Pro</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>iPhone 11 Pro Max</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>iPhone SE (2nd generation)</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>iPhone 12 mini</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>iPhone 12</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>iPhone 12 Pro</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>iPhone 12 Pro Max</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>iPhone 13 mini</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>iPhone 13</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>iPhone 13 Pro</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>iPhone 13 Pro Max</string>
-        </property>
-       </item>
-      </widget>
-     </item>
-     <item row="3" column="0" alignment="Qt::AlignHCenter">
-      <widget class="QTextEdit" name="textEdit"/>
-     </item>
-     <item row="3" column="2" alignment="Qt::AlignHCenter">
-      <widget class="QTextEdit" name="textEdit_2"/>
-     </item>
-     <item row="4" column="1">
-      <widget class="QPushButton" name="pushButton">
-       <property name="text">
-        <string>Compare</string>
-       </property>
-      </widget>
-     </item>
-     <item row="5" column="1" alignment="Qt::AlignHCenter">
-      <widget class="QLabel" name="label_2">
-       <property name="text">
-        <string>Comparing...</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>839</width>
      <height>22</height>
     </rect>
    </property>

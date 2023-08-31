@@ -9,7 +9,6 @@ MainWindow::MainWindow(QWidget *parent)
     ui->label_2->setVisible(false);
 }
 
-
 MainWindow::~MainWindow()
 {
     delete ui;
